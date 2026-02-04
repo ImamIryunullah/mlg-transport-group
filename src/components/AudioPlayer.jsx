@@ -47,7 +47,7 @@ const AudioPlayer = () => {
   return (
     <div className="fixed bottom-6 right-6 md:bottom-10 md:right-10 z-[100] flex items-center gap-4">
       {/* AUDIO SOURCE */}
-      <audio ref={audioRef} src="/sounds/Sounds.mp3" loop preload="auto" />
+      <audio ref={audioRef} src="/sounds/2.mp3" loop preload="auto" />
 
       {/* TEXT LABEL (Desktop only) */}
       <div className="hidden md:block overflow-hidden">

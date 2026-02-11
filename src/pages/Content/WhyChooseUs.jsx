@@ -14,7 +14,7 @@ const features = [
   },
   {
     icon: Clock,
-    title: "Layanan 24 Jam",
+    title: "Layanan 08.00 - 20.00 WIB",
     desc: "Siap melayani kapan saja dengan respon cepat dan profesional di wilayah Malang dan sekitarnya.",
   },
   {

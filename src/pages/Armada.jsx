@@ -8,7 +8,7 @@ export default function Armada() {
   return (
     <main className="min-h-screen bg-black text-white">
       <Navbar />
-
+      {/* Optional overlay effect */}
       <section className="py-28 px-6 md:px-16 max-w-7xl mx-auto">
         <div className="text-center mb-20">
           <p className="text-yellow-500 uppercase tracking-widest text-sm mb-4">

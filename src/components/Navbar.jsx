@@ -37,7 +37,6 @@ const Navbar = () => {
           </a>
         </div>
 
-        {/* MOBILE BUTTON */}
         <button
           onClick={() => setOpen(!open)}
           className="md:hidden flex flex-col gap-1"
@@ -59,22 +58,23 @@ const Navbar = () => {
             className="md:hidden bg-black/95 backdrop-blur-xl border-t border-white/10"
           >
             <div className="flex flex-col items-center gap-6 py-8 text-white text-base">
-              <a href="#" onClick={() => setOpen(false)}>
-                Armada
+              <a href="/" onClick={() => setOpen(false)}>
+                Home
               </a>
-              <a href="#" onClick={() => setOpen(false)}>
+              <a href="#layanan" onClick={() => setOpen(false)}>
                 Layanan
               </a>
-              <a href="#" onClick={() => setOpen(false)}>
-                Harga
+              <a href="#armada" onClick={() => setOpen(false)}>
+                Armada
               </a>
-              <a href="#" onClick={() => setOpen(false)}>
-                Tentang Kami
+              <a href="/paket-lebaran" onClick={() => setOpen(false)}>
+                Paket Lebaran
               </a>
-
-              <button className="bg-yellow-500 text-black px-6 py-2 rounded-full font-semibold mt-4">
-                Contact
-              </button>
+              <a href="#contact">
+                <button className="bg-yellow-500 text-black px-6 py-2 rounded-full font-semibold mt-4">
+                  Contact
+                </button>
+              </a>
             </div>
           </motion.div>
         )}

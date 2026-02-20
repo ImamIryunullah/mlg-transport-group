@@ -70,7 +70,7 @@ const Navbar = () => {
               <a href="/paket-lebaran" onClick={() => setOpen(false)}>
                 Paket Lebaran
               </a>
-              <a href="#contact">
+              <a href="#contact" onClick={() => setOpen(false)}>
                 <button className="bg-yellow-500 text-black px-6 py-2 rounded-full font-semibold mt-4">
                   Contact
                 </button>

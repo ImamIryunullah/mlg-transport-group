@@ -5,6 +5,7 @@ import WhyChooseUs from "./Content/WhyChooseUs";
 import ArmadaSection from "./Content/ArmadaSection";
 import WhatsAppButton from "../components/WhatsAppButton";
 import LocationSection from "./Content/LocationSection";
+import PaketLebaran from "./Content/PaketLebaran";
 const Home = () => {
   return (
     <main className="relative min-h-screen bg-black overflow-hidden flex flex-col">
@@ -15,6 +16,7 @@ const Home = () => {
         <WhyChooseUs />
         <ArmadaSection />
         <LocationSection />
+        <PaketLebaran />
       </div>
       <WhatsAppButton />
 

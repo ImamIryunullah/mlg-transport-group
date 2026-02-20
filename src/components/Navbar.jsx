@@ -27,7 +27,7 @@ const Navbar = () => {
           <a href="#armada" className="hover:text-yellow-500 transition">
             Armada
           </a>
-          <a href="/paket-lebaran" className="hover:text-yellow-500 transition">
+          <a href="#paket-lebaran" className="hover:text-yellow-500 transition">
             Paket Lebaran
           </a>
           <a href="#contact">
@@ -67,7 +67,7 @@ const Navbar = () => {
               <a href="#armada" onClick={() => setOpen(false)}>
                 Armada
               </a>
-              <a href="/paket-lebaran" onClick={() => setOpen(false)}>
+              <a href="#paket-lebaran" onClick={() => setOpen(false)}>
                 Paket Lebaran
               </a>
               <a href="#contact" onClick={() => setOpen(false)}>

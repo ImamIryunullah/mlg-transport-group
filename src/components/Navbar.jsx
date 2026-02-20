@@ -9,29 +9,32 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-6 md:px-12 py-4 flex items-center justify-between">
         {/* LOGO */}
         <div className="flex items-center">
-          <span className="text-white font-bold tracking-tight text-sm sm:text-base">
-            CV Pratama Transport Group
-          </span>
+          <a href="/">
+            <span className="text-white font-bold tracking-tight text-sm sm:text-base">
+              CV Pratama Transport Group
+            </span>
+          </a>
         </div>
 
         {/* DESKTOP MENU */}
         <div className="hidden md:flex items-center gap-8 text-sm font-medium text-white/80">
-          <a href="#" className="hover:text-yellow-500 transition">
-            Armada
+          <a href="/" className="hover:text-yellow-500 transition">
+            Home
           </a>
-          <a href="#" className="hover:text-yellow-500 transition">
+          <a href="#layanan" className="hover:text-yellow-500 transition">
             Layanan
           </a>
-          <a href="#" className="hover:text-yellow-500 transition">
-            Harga
+          <a href="#armada" className="hover:text-yellow-500 transition">
+            Armada
           </a>
-          <a href="#" className="hover:text-yellow-500 transition">
-            Tentang Kami
+          <a href="/paket-lebaran" className="hover:text-yellow-500 transition">
+            Paket Lebaran
           </a>
-
-          <button className="ml-4 bg-yellow-500 text-black px-5 py-2 rounded-full font-semibold hover:bg-yellow-400 transition">
-            Contact
-          </button>
+          <a href="#contact">
+            <button className="ml-4 bg-yellow-500 text-black px-5 py-2 rounded-full font-semibold hover:bg-yellow-400 transition">
+              Contact
+            </button>
+          </a>
         </div>
 
         {/* MOBILE BUTTON */}

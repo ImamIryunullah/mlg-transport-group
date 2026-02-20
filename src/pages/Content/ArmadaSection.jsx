@@ -2,10 +2,10 @@ import { Link } from "react-router-dom";
 import { cars } from "../../data/armadaData";
 
 export default function ArmadaSection() {
-  const previewCars = cars.slice(0, 12); // hanya 12
+  const previewCars = cars.slice(0, 12);
 
   return (
-    <section className="py-24 bg-black text-white">
+    <section id="armada" className="py-24 bg-black text-white">
       <div className="max-w-7xl mx-auto px-6 md:px-16">
         <div className="text-center mb-16">
           <p className="text-yellow-500 uppercase tracking-widest text-sm mb-3">

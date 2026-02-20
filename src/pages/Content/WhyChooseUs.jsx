@@ -26,7 +26,10 @@ const features = [
 
 const WhyChooseUs = () => {
   return (
-    <section className="relative py-24 bg-gradient-to-b from-neutral-900 via-black to-neutral-950 text-white overflow-hidden">
+    <section
+      id="layanan"
+      className="relative py-24 bg-gradient-to-b from-neutral-900 via-black to-neutral-950 text-white overflow-hidden"
+    >
       {/* Glow Background */}
       <div className="absolute inset-0 bg-gradient-to-b from-black via-neutral-900 to-black opacity-90" />
       <div className="absolute -top-40 -left-40 w-96 h-96 bg-yellow-500/10 rounded-full blur-3xl" />

@@ -3,7 +3,10 @@ import { FiMapPin, FiPhone, FiClock } from "react-icons/fi";
 
 const LocationSection = () => {
   return (
-    <section className="relative py-32 bg-black text-white overflow-hidden">
+    <section
+      id="contact"
+      className="relative py-32 bg-black text-white overflow-hidden"
+    >
       <div className="max-w-7xl mx-auto px-6 md:px-16 relative z-10">
         {/* Heading */}
         <div className="text-center mb-20">
